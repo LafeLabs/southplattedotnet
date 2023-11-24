@@ -1,0 +1,50 @@
+{
+    "html": [
+        "README.md",
+        "fork.html",
+        "forkdestroyer.html",
+        "geometron.html",
+        "geometron.js",
+        "index.html",
+        "measure.py",
+        "qrcode-page.html",
+        "qrcode.html",
+        "readme.html",
+        "readmeeditor.html",
+        "temperature-circuitplayground.py",
+        "trashmagic.css",
+        "trashmagic.js",
+        "watershed.css",
+        "webdestroyer.html",
+        "webeditor.html"
+    ],
+    "data": [
+        "alignimage.txt",
+        "currentjson.txt",
+        "dna.txt",
+        "icon.txt",
+        "iconfeed.txt",
+        "imagefeed.txt",
+        "plotlyjson.txt",
+        "scrollset.txt",
+        "sensordata.txt",
+        "squaresfeed.txt"
+    ],
+    "php": [
+        "copy.txt",
+        "deletefile.txt",
+        "dir.txt",
+        "dnagenerator.txt",
+        "editor.txt",
+        "fileloader.txt",
+        "filesaver.txt",
+        "mkdir.txt",
+        "pngsave.txt",
+        "rdelete.txt",
+        "rdir.txt",
+        "replicator.txt",
+        "scrollsetreplicator.txt",
+        "text2php.txt",
+        "uploadimage.txt"
+    ]
+}
