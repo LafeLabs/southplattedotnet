@@ -28,6 +28,9 @@
 </head>
 <body>
 <div id = "mainscroll">
+    
+    <div id = "qrcode"></div>
+    
     <h1>SOUTH PLATTE RIVER</h1>
     <H1>WATERSHED NETWORK</H1>
     <P>
@@ -37,19 +40,56 @@
     
     <P>IN TRASH MAGIC WE BUILD EVERYTHING FROM TRASH AND WHAT WE CAN GROW!</P>
     
+    <P>WE SHALL CONNECT FROM THE ORIGINS OF THE SOUTH PLATTE UP NEAR FAIRPLAY ALL THE WAY DOWN TO THE CONFLUENCE WITH THE NORTH PLATTE TO FORM THE PLATTE!  WE SHALL CONNECT FROM THERE DOWN TO THE PLATTE! AND THEN THE MISSOURI AND FINALLY THE MISSISSIPPI AND THE GULF AND OUT TO THE ATLANTIC!</P>
+    
+    <P>FREE WEB SERVERS MADE OF TRASH!  FREE PANTS MADE OF TRASH! FREE SHIRTS MADE OF TRASH! FREE DRESSES MADE OF TRASH! FREE CUBES! INTERNET OF DIRT!  FREE ROBOTS MADE OF TRASH!  FREE SYNTHESIZERS MADE OF TRASH!  FREE QUANTUM NOISE SYNTHS MADE OF TRASH! THE VOICE OF THE SLIME!  </P>
+    
+    <img src = "https://raw.githubusercontent.com/LafeLabs/southplattedotnet/main/trashmagic/blue-white-square.png"/>
+    
+    <img src = "https://raw.githubusercontent.com/LafeLabs/southplattedotnet/main/trashmagic/watershed.png"/>    
+    
+
+    
     <A HREF = "https://en.wikipedia.org/wiki/South_Platte_River">SOUTH PLATTE RIVER WIKIPEDIA</A>
+    
+    <a href = "webeditor.html">CODE EDITOR</a>
+    
+    <a href = "https://colfax.site">COLFAX AVE STREET NETWORK</a>
+    
+    <A href  = "https://github.com/lafeLabs/squares">INTERNET OF SQUARES</A>
+    
+    <a href = "geometron/">GEOMETRON!</a>
+    
+    <a href = "squares/">LOCAL SQUARES</a>
+    
+    
+    <img src= "https://upload.wikimedia.org/wikipedia/commons/1/15/South_Platte_basin_map.png"/>
     
 </div>
 </body>
 <script>
     rainbow(document.getElementsByTagName("A"));
     bubbles(10);
-/*
+
 titles = document.getElementsByTagName("H1");
 for(var index = 0;index < titles.length;index++){
     rainbowstring(titles[index]);    
 }
-*/
+
+codesquaresize = 170;
+marginsize = 40;
+fontsize = 12;
+//globalurl = "http://www.trashrobot.org/qrcode.html";
+globalurl = window.location.href;
+qrcode = new QRCode(document.getElementById("qrcode"), {
+	text: globalurl,
+	width: codesquaresize,
+	height: codesquaresize,
+	colorDark : "#000000",
+	colorLight : "#ffffff",
+	correctLevel : QRCode.CorrectLevel.H
+});
+
 
 </script>
 <style>
